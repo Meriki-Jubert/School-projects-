@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main(){
+	//printf("Hello World!\n");
+	//printf("\tHello World!\n\\I am learning C.\n\"And it's awesome!");
+	//printf("And it's awesome!");
+	
+	/*This is my first program i am 
+	a writting, with madam lizzy being 
+	our teacher*/
+	
+	
+	//Declearing and assigning a variable in one line
+	/*int myNum = 15; //interger(whole numbers)
+	float myFloatNum = 5.99; //floating points numbers
+	char myLeter = 'D'; //single character
+	myNum = 5;
+	
+	//printing variables
+	printf("My favorite number is: %d\n", myNum);
+	printf("%f\n", myFloatNum);
+	printf("My favorite letter is: %c", myLeter);*/
+	
+	int x = 15;
+	int y = 12;
+	int sum = x * y;
+	printf("%d",sum);
+	
+	return 0;
+}
