@@ -16,6 +16,29 @@ body{
     border-radius: 10px;
     padding: 1%;
     width: 97%;
+    transition: 0.5s;
+    justify-content: space-between;        animation: fall 1s linear;
+
+}
+ .abt{
+    height: 130px;
+    width: 130px;
+    border: none;
+    border-radius: 50%;
+    background: rgb(29, 29, 127);
+    text-align: center;
+    position: relative;
+    animation: slide 1s linear;
+    float: left;
+    transition: .7s;
+}
+.abt a{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    color: white;   ;
 }
 .tit h1{
     margin-bottom: 0;
@@ -23,13 +46,36 @@ body{
 .tit p{
     margin-top: 0;
 }
+.abt:hover{
+    transform: scale(0.9);
+    transform: translateY(-15px);
+    background:rgb(192, 62, 62);
+ 
+}
+@keyframes slide{
+    from{
+        transform: translateX(-1000px);
+    }
+    to{
+        transform: translateY(0)
+    }
+}
+@keyframes fall {
+    from{
+        transform: translateY(-1000px);
+    }
+    to{
+        transform: translateY(0)
+    }
+}
+
 nav{
     display: flex;
     flex-direction: column;
     margin: 5%;
     padding: 0;
     text-transform: capitalize;
-    width: 70%;
+    width: 40%;
     transform: translateY(-10px);
 }
 nav a{
@@ -43,6 +89,7 @@ nav a{
 }
 nav a:hover{
     background: rgb(44, 44, 178);
+    transform: scale(1.1);
 }
  nav .act{
     background: rgb(192, 62, 62);

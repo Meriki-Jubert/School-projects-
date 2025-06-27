@@ -1,0 +1,56 @@
+ body{
+           /* background-image: url('back.jpg');*/
+           background-color: rgba(13, 10, 44, 0.863);
+            font-family: Arial, sans-serif;
+            transition: 1s;
+        }
+        .page {
+            width: 80%;
+            margin: 8%;
+            padding: 20px;
+            background-color: hsla(0, 0%, 69%, 0.269);
+            backdrop-filter: blur(28px);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgb(41, 15, 156);
+            border: 2px solid rgb(134, 134, 134);
+            color: black;
+            height: 470px;
+            text-wrap: wrap;
+        }
+        img{
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgb(51, 29, 117);
+            opacity: .9;
+        }
+        footer{
+            width: 100%;
+            text-align: center;
+            color: white;
+            padding-bottom: 1%;
+        }
+        .light{
+            background-color: rgb(188, 214, 236);
+            transition: 1s;
+        }
+        .light svg{
+            fill: black;
+        }
+        .light #on{
+            display: block;
+        }
+        .light #off{
+            display: none;
+        }
+        #on{
+            display: none;
+        }
+        svg:hover{
+            transform: rotate(180deg);
+            transition: 1s;
+        }  
+        .light footer{
+            color: black;
+        } 
+        button{
+            width: fit-content;
+        }
